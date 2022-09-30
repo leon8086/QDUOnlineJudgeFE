@@ -6,7 +6,6 @@ import { Announcement, Conf, Contest, ContestList, Home, JudgeServer, Login,
 Vue.use(VueRouter)
 
 export default new VueRouter({
-  mode: 'history',
   base: '/admin/',
   scrollBehavior: () => ({y: 0}),
   routes: [
